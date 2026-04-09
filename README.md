@@ -6,18 +6,17 @@ Repositorio monorepo para todas mis webs y proyectos web personales.
 
 ```
 mis-proyectos-web/
-├── noelia-yoga/          # Web de yoga para Noelia
-├── [proyecto-futuro]/    # Próximo proyecto
-└── [proyecto-futuro]/    # Otro proyecto futuro
+├── [proyecto-1]/        # Primer proyecto activo
+├── [proyecto-2]/        # Segundo proyecto
+├── [proyecto-futuro]/   # Próximo proyecto
+└── [proyecto-futuro]/   # Otro proyecto futuro
 ```
 
 ## 🚀 Proyectos actuales
 
-### Noelia Yoga
-- **Descripción:** Web de clases de yoga especializada en Yoga Oncológico
-- **Estilos:** Hatha, Kundalini, Vinyasa, Nidra, Yin, Restaurativo
-- **Ubicación:** Leganés, Getafe, Alcorcón
-- **Contacto:** japmantkaur@gmail.com | +34633073841
+Todos los proyectos están organizados en directorios separados dentro de este repositorio.
+
+Cada proyecto tendrá su propia estructura independiente y se desplegará automáticamente mediante GitHub Actions.
 
 ## 📝 Instrucciones de uso
 
@@ -36,7 +35,7 @@ mis-proyectos-web/
    ```
 
 3. **GitHub Pages:**
-   - La web se desplegará en: https://usuario.github.io/mis-proyectos-web/[nombre-proyecto]/
+   - Cada proyecto se desplegará en: https://usuario.github.io/mis-proyectos-web/[nombre-del-proyecto]/
 
 ## 🔧 Configuración
 
