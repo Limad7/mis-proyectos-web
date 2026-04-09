@@ -1,10 +1,11 @@
-name: Deploy Project to GitHub Pages
+name: Deploy Noelia Yoga to GitHub Pages
 
 on:
   push:
     branches: [ main ]
     paths:
-      - '**/'  # Desplegar cualquier proyecto que cambie
+      - 'noelia-yoga/**'
+      - '.github/workflows/deploy.yml'
 
 jobs:
   deploy:
@@ -28,9 +29,7 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        # Este workflow se ajusta para desplegar el proyecto que cambió
-        # Para múltiples proyectos simultáneos, se necesitarían workflows separados
-        path: '.'
+        path: './noelia-yoga'
         
     - name: Deploy to GitHub Pages
       id: deployment
